@@ -131,6 +131,79 @@ Goto örnek:
 ![image](https://user-images.githubusercontent.com/44713722/182465238-df1c383c-19cb-4984-b4bf-0cfa871cd40c.png)
 
 
+### Keywords : Access Modifiers
+
+6 tanedir.
+
+public : herhangi bir kısıtlama olmadan. using ekler erişiriz.
+protected: ancak ve ancak türetilmiş class'larda. Base aldığınız class üzerinden erişebilirsin.
+internal: türetilmiş sınıf üzerinden erişilir yine. O assembly yani o projede kullanırız. Bir sonraki proje görmez.
+protected internal: hem aynı assembly hemde türetilmiş sınıf üzerinden. ikisinin birleşimi.
+private: o an ki class'tan erişiriz. Dışarıdan erişemeyiz.
+private protected
+
+![image](https://user-images.githubusercontent.com/44713722/182468077-0a910e09-d2ae-4172-83ea-2cfaf04c9338.png)
+
+Keywords: Const & Readonly Modifiers
+
+Const: sabit değer verebiliyoruz. sürekli değişen değerleri sabitleyeceğimiz zaman kullanıyoruz. ilk aldığı değerden sonra değiştirmeye izin vermez. 
+Readonly: constracture içerisinde tanımlanıyor. Değişmeyecek bir değer. Sınıf içerisinde değiştirmeye izin veriyor. fakat contructer dışında tanımlamaya izin vermez.
+
+![image](https://user-images.githubusercontent.com/44713722/182469741-4094a426-d209-4282-9a54-7630d46493b9.png)
+
+Read only referanslarda kullanıldığında açık mı? Araştırılabilir.
+
+Keywords: Stattements
+
+Exception handling Statement mıdır? mülakat sorusu :) cevap evet.
+
+kendi içieriisnde 4'e ayrılıyor.
+
+![image](https://user-images.githubusercontent.com/44713722/182471089-5e5ebce2-5461-4d8a-bdab-10bbe7bfa2d2.png)
+
+Operator: Logical NEgotation
+
+Bir değiştkene false atanmış. ! ie terisini alabiliyoruz. checbox'larda kullanabiliriz.
+
+![image](https://user-images.githubusercontent.com/44713722/182471730-96d3b08a-3080-48e5-9579-9ff08e3e4067.png)
+
+
+Operator : Null Coalescing 
+
+?? operatorudur soldaki değer null'sa sağdaki ifadeyi döndürür.
+
+null - coalescing Assigment ise soldaki null'sa sağdaki ifadeyi assign ediyor.
+
+Çıktı ne olur?
+
+            List<int> numbers = null;
+            int? a = null;
+
+            (numbers ??= new List<int>()).Add(5);
+            Console.WriteLine(string.Join(" ", numbers));
+
+            numbers.Add(a ??= 0);
+            Console.WriteLine(string.Join(" ", numbers));
+            Console.WriteLine(a);
+ 
+ilk başta numbers null olduğundan 5 atar yazdı.
+numbers.Add(a ??= 0); a halen null o halde gitti 0'ı numbers dizisine atadı.
+Console.WriteLine(a); a'yı sıfıra atadığımız için en son a yı yazdı.
+Sonuç alt bölümdeki gibi.            
+![image](https://user-images.githubusercontent.com/44713722/182474236-31ace240-22ff-4002-8ad5-b0f5c186b724.png)
+            
+
+BBoxing / Unboxing in C#
+
+![image](https://user-images.githubusercontent.com/44713722/182475459-5668d192-34d0-4946-a699-7bdeabe9b30b.png)
+
+int i 123 atadık.
+object nesnesi tanımladık ve o 'ya i atadık. Bu işlem bir boxing işlemi.
+
+![image](https://user-images.githubusercontent.com/44713722/182476340-40d63ef5-e817-42ea-878e-b40d75ffb6f0.png)
+
+
+
 
     
     
