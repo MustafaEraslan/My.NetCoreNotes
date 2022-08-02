@@ -87,6 +87,50 @@ Buradaki tüm olay şöyle;
 
 ![image](https://user-images.githubusercontent.com/44713722/182463314-af2dce5e-4132-4eec-ab0c-aa77594073d6.png)
 
+Stack vs Heap in memory
+
+![image](https://user-images.githubusercontent.com/44713722/182463869-cab91088-9dec-478d-b787-b293ddf484af.png)
+
+heap'te size değişebliyor bu sebeple daha karmaşık.
+
+
+Bütün tipler objectten geliyor. Tiplerin babası objecttir.
+
+referans typle'lar default null olarak gelir.
+
+Default vlues of C# typles
+![image](https://user-images.githubusercontent.com/44713722/182465031-35f4b476-1dfb-40c6-b177-d1e6a375edb7.png)
+
+
+Keywords in C#
+
+uygulamayı yazmamıza olanak sağlarlar.
+
+goto: 
+sealed: mühürlemek. bunu kalıtım alamazsın demek için kullanıyoruz. inharet almasını istemediğimiz durumlarda kullanabiliriz.
+fixed: garraed collector ile iligi bir konu.
+
+Goto örnek:
+
+            var a = Sehirler.Ankara;
+
+            switch (a)
+            {
+                case Sehirler.Adana:
+                    break;
+                case Sehirler.Ankara:
+                    goto case Sehirler.Istanbul;
+                case Sehirler.Antalya:
+                    break;
+                case Sehirler.Istanbul:
+                    Console.WriteLine(" İstanbul !"); break;
+                default:
+                    break;
+            }
+
+![image](https://user-images.githubusercontent.com/44713722/182465238-df1c383c-19cb-4984-b4bf-0cfa871cd40c.png)
+
+
 
     
     
