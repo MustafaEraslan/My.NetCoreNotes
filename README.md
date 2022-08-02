@@ -202,8 +202,51 @@ object nesnesi tanımladık ve o 'ya i atadık. Bu işlem bir boxing işlemi.
 
 ![image](https://user-images.githubusercontent.com/44713722/182476340-40d63ef5-e817-42ea-878e-b40d75ffb6f0.png)
 
+Yani value type olan bir şeyi referans type olarak tutmuş olduk. Buna boxing denir. int 123 değerini gdip heap bölgesinde tutabilmiş olduk.
 
+.net'in birçok alanında boxing var. Bilemediği değerleri object olarak tutuyor.
 
+Exception Handling
 
+Try:
+Catch
+Finally: Try ve catch'ten bağımsız olarak en son çalışan kod bloğudur.
+Throw
+![image](https://user-images.githubusercontent.com/44713722/182477596-90ba4aa2-d823-4251-b014-caff10929c15.png) 
+
+Mülakat sorusu 2: stackoverflowexception nedir? Araştır.
+
+Alttaki ne döner?
+            try
+            {
+                ThrowEx();
+            }
+            catch (Exception _)
+            {
+                Console.WriteLine(_.Message);
+            }
+            
+        static void ThrowEx()
+        {
+            try
+            {
+                throw new Exception("Try Exception");
+            }
+            catch (Exception _)
+            {
+                throw new Exception("Catch Exception");
+            }
+            finally
+            {
+                throw new Exception("Finally Exception");
+            }
+        }            
     
-    
+Finally çalışıyor.
+
+![image](https://user-images.githubusercontent.com/44713722/182480706-f9c4ee75-db4f-47cc-ad29-a0820614e0cd.png)
+
+exception en son yazmak lazım çünkü en genel sınıftır.
+
+
+
