@@ -58,3 +58,35 @@ int a= 10;
 int b= 20; diyelim. Gider bunları Ram'in stack bölgesine yazar.
 
 Fakat bir obje referans type'a geçtiğinde yine değeri stack'te tutuluyor fakat bunun pointer'ı yani referansı Heap bölgesinde tutulmuş oluyor.
+
+            A a = new A(); // A nesnesi oluşturdum.
+            a.i = 2;
+
+
+            A b = new A();
+            b.i = 6;
+
+            A c = b;
+            c.i = a.i;
+
+
+            Console.WriteLine(a.i);
+            Console.WriteLine(b.i);
+            Console.WriteLine(c.i);
+            
+     public class A
+    {
+
+
+        public int i { get; set; }
+    }
+    
+    her birine a, b, c elemanlarına 2 değerini basar.
+    
+Buradaki tüm olay şöyle;
+
+![image](https://user-images.githubusercontent.com/44713722/182463314-af2dce5e-4132-4eec-ab0c-aa77594073d6.png)
+
+
+    
+    
