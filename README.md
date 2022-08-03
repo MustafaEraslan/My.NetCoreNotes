@@ -347,6 +347,19 @@ Türlere göre speak methodunu türettik.
 - method hiding
 ![image](https://user-images.githubusercontent.com/44713722/182622948-591f3573-299f-4a59-96d1-d339ec4421ea.png)
 
+OOP  in C# : Encapsulation
+--yazılcak sonra
+
+Abstract Class ile Interface arasındaki fark nedir?
+
+ikisinde de implemante ediliyor.
+
+İkisinde de new yapamazsın. Ancak kalıtım verebliriz.
+
+![image](https://user-images.githubusercontent.com/44713722/182624675-c5c1b09e-f615-424c-b38c-1957971b4c88.png)
+
+Birds'u IFly dan imlemente edelim. >>>> Kuş uçabilir. Can Be durumu var burada.
+Birds'u Animaldan abstract class alalım. >> Kuş bir hayvandır. Is A ilişkisi. Bu budur deriz.
 
 
 
