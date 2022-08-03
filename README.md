@@ -309,8 +309,23 @@ sales force, CRM Dynamic geliştirdiğimizde buna bulaşmak durumunda kalırız.
 
 ![image](https://user-images.githubusercontent.com/44713722/182587322-90996af9-39bc-4d01-a24a-83ac7e70c7ab.png)
 
+Object in C# Abstraction
+
+Nesnelerin modellendiği bir yapı.
+
+OOP in C# : Class & Object 
+![image](https://user-images.githubusercontent.com/44713722/182620618-9d915bfd-53ef-409f-969d-c95f5e7e5908.png)
+
+OOP in C# : Interface
+
+- no access modifier
+- implament verilen sınıfta declare etmek gerek.
+![image](https://user-images.githubusercontent.com/44713722/182620707-2ce0b70b-b7c4-4155-a57f-5d6b62110b01.png)
 
 
+OOP in C# : Inheritance
+
+![image](https://user-images.githubusercontent.com/44713722/182621056-e29e2b4d-34be-4622-b4c7-747af2452131.png)
 
 
 
