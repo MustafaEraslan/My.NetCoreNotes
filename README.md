@@ -248,5 +248,73 @@ Finally çalışıyor.
 
 exception en son yazmak lazım çünkü en genel sınıftır.
 
+![image](https://user-images.githubusercontent.com/44713722/182583601-719fe6c9-677a-4376-a9a1-e46d07ed1246.png)
+
+Readonly hatası verir. Constructure olarak çalışıyor üstü.
+
+Http Protocol
+
+client server protokolüdür. 
+
+![image](https://user-images.githubusercontent.com/44713722/182584535-b86a959b-c137-499a-988d-7808270db435.png)
+
+![image](https://user-images.githubusercontent.com/44713722/182584583-a3db87ba-290f-4e76-bf93-74577a2355be.png)
+
+Web Api World
+
+Rest is a web Protocol?
+
+Hayır değildir. Standartlar bütünü diyebiliriz. 
+
+Rest ile restfull farkı nedir?
+
+Rest standartlar bütünü,
+Restfull bu standartların çalıştığı tüm uygulamalardır.
+
+![image](https://user-images.githubusercontent.com/44713722/182585522-f437f159-2564-4d6a-b56f-3c08bcba8815.png)
+
+
+Stateles ne demek?
+
+Sunucu istek yaptığımızda kim yaptığı bilgisini tutmaz. seasion tutmaz. state tutmaz.
+
+Stateless tüm meta datalarının server'a iletilmesini belirtiyor. 
+Sunucuya gelen isteğin istemcinin bütün bilgilerini üzerinde barındırması gerekiyor.
+
+Responce'u catch yapabiliyoruz. Soap'ta yok
+
+![image](https://user-images.githubusercontent.com/44713722/182586224-ff711399-4b03-4677-9c30-2c6bb01b97a3.png)
+
+![image](https://user-images.githubusercontent.com/44713722/182586261-404c6946-fa58-4e17-a4cc-ce888235d963.png)
+
+![image](https://user-images.githubusercontent.com/44713722/182586415-66d17c41-513d-463d-a21b-a81a8ad2851f.png)
+
+Json
+
+Soap'a göre daha okunabilir. Hem okunabilir hem de makinanın anlayabilieceği bir dil.
+![image](https://user-images.githubusercontent.com/44713722/182586569-42ea5100-be63-44ef-8de0-527bcc808223.png)
+
+6 data type'ı destekliyor.
+- number 
+- string
+- boolean
+- array
+- object 
+- null
+
+birtek datetime yok ama bunu da framework bazında datetime olarak parse ediyoruz.
+
+Soap Service
+sales force, CRM Dynamic geliştirdiğimizde buna bulaşmak durumunda kalırız.
+
+![image](https://user-images.githubusercontent.com/44713722/182587322-90996af9-39bc-4d01-a24a-83ac7e70c7ab.png)
+
+
+
+
+
+
+
+
 
 
