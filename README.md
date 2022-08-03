@@ -373,11 +373,19 @@ Sınıf içerisinde tanımlananlara denir.
 
 hazırlık sorum:
 Ajax nedir?
-AJAX, Asynchronous JavaScript and XML, Türkçe olarak Eşzamansız ve XML’in kısaltılmışıdır. Sunucuya gelen herhangi bir isteği arkaplanda işleyerek web uygulamalarının eşzamanlı olmadan çalışmasına olanak sağlayan bir takım web geliştirme teknikleridir.
+
+AJAX, Asynchronous JavaScript and XML, Türkçe olarak Eşzamansız ve XML’in kısaltılmışıdır. Sunucuya gelen herhangi bir isteği arkaplanda işleyerek web uygulamalarının
+eşzamanlı olmadan çalışmasına olanak sağlayan bir takım web geliştirme teknikleridir.
 Hem JavaScript, hem de XML AJAX’da eşzamanlı olmadan çalışır. 
 Sonuç olarak, AJAX kullanan herhangi bir web uygulaması tüm sayfayı yenileme ihtiyacı olmadan veri yollayabilir ve alabilir.
 
+String ile StringBuilder farkı nedir?
 
+StringBuilder dediğimiz sınıf,string verilerin + operatörüyle birleşme işleminin aynısını yapmaktadır.Ancak + operatörüyle stringler birleştirilirken bellekte birsürü
+geçiçi string ifadeler oluşturulur.Bu işlemlerde büyük oranda performans kaybına sebep olmaktadır.Sonucta bu ifadelerin yan yana birleşmiş hali elde edilmeye
+çalışılmaktadır.Ve bu işlemi StringBuilder sınıfını kullanarak yaparsak büyük oranda performans kaybını önlemiş oluruz.
+
+Append(), AppendLine() methodları örnektir.
 
 
 
