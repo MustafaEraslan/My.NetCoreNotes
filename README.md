@@ -327,6 +327,27 @@ OOP in C# : Inheritance
 
 ![image](https://user-images.githubusercontent.com/44713722/182621056-e29e2b4d-34be-4622-b4c7-747af2452131.png)
 
+ana sınıf base class
+türetilmiş sınıf derived class olarak bilinir
+
+OOP in C# : Polymorphism
+
+4'e ayrılır.
+OOP'de kritik.
+SOLID'te değişime kapalı fakat genişleyen kodlar kullanmamız gerekiyor.
+
+- method overloading : Aynı isimde birden fazla parametre alabiliyor. 
+![image](https://user-images.githubusercontent.com/44713722/182622308-1dd0140e-3665-4573-a37f-a2cdad867a5a.png)
+- parameter overloading
+virtual tanımlamlar derived class'larda ezilebiliyor.
+![image](https://user-images.githubusercontent.com/44713722/182622498-868e5159-9178-42e0-9f8c-16207b434d25.png)
+Türlere göre speak methodunu türettik. 
+- method overriding
+
+- method hiding
+![image](https://user-images.githubusercontent.com/44713722/182622948-591f3573-299f-4a59-96d1-d339ec4421ea.png)
+
+
 
 
 
