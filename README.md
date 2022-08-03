@@ -361,6 +361,12 @@ ikisinde de implemante ediliyor.
 Birds'u IFly dan imlemente edelim. >>>> Kuş uçabilir. Can Be durumu var burada.
 Birds'u Animaldan abstract class alalım. >> Kuş bir hayvandır. Is A ilişkisi. Bu budur deriz.
 
+Nested Type nedir?
+
+Sınıf içerisinde tanımlananlara denir.
+
+![image](https://user-images.githubusercontent.com/44713722/182625932-7adf7f4e-1859-4bc2-9762-477d9f2cf831.png)
+
 
 
 
