@@ -371,7 +371,11 @@ Sınıf içerisinde tanımlananlara denir.
 
 ![image](https://user-images.githubusercontent.com/44713722/182625932-7adf7f4e-1859-4bc2-9762-477d9f2cf831.png)
 
-
+hazırlık sorum:
+Ajax nedir?
+AJAX, Asynchronous JavaScript and XML, Türkçe olarak Eşzamansız ve XML’in kısaltılmışıdır. Sunucuya gelen herhangi bir isteği arkaplanda işleyerek web uygulamalarının eşzamanlı olmadan çalışmasına olanak sağlayan bir takım web geliştirme teknikleridir.
+Hem JavaScript, hem de XML AJAX’da eşzamanlı olmadan çalışır. 
+Sonuç olarak, AJAX kullanan herhangi bir web uygulaması tüm sayfayı yenileme ihtiyacı olmadan veri yollayabilir ve alabilir.
 
 
 
