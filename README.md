@@ -41,7 +41,7 @@ Console.writeline system'den geliyor. Onun içerisinde.
 
 ![image](https://user-images.githubusercontent.com/44713722/182450123-c4a3594f-2029-48ca-9ef5-f793c34f5fab.png)
 
-##Types in C#
+## Types in C#
 
 Referans ve Value type olarak ikiye ayrılıyor.
 
@@ -50,7 +50,7 @@ Referans ve Value type olarak ikiye ayrılıyor.
 
 ![image](https://user-images.githubusercontent.com/44713722/182450794-d3b55838-6a6d-489e-b347-a6c8e0983522.png)
 
-##Stack vs Heap in Memory
+## Stack vs Heap in Memory
 
 ![image](https://user-images.githubusercontent.com/44713722/182450867-ace398bd-324f-4cf8-b847-26c6549114d4.png)
 
@@ -87,7 +87,7 @@ Buradaki tüm olay şöyle;
 
 ![image](https://user-images.githubusercontent.com/44713722/182463314-af2dce5e-4132-4eec-ab0c-aa77594073d6.png)
 
-Stack vs Heap in memory
+## Stack vs Heap in memory
 
 ![image](https://user-images.githubusercontent.com/44713722/182463869-cab91088-9dec-478d-b787-b293ddf484af.png)
 
@@ -102,7 +102,7 @@ Default vlues of C# typles
 ![image](https://user-images.githubusercontent.com/44713722/182465031-35f4b476-1dfb-40c6-b177-d1e6a375edb7.png)
 
 
-Keywords in C#
+## Keywords in C#
 
 uygulamayı yazmamıza olanak sağlarlar.
 
@@ -131,7 +131,7 @@ Goto örnek:
 ![image](https://user-images.githubusercontent.com/44713722/182465238-df1c383c-19cb-4984-b4bf-0cfa871cd40c.png)
 
 
-### Keywords : Access Modifiers
+## Keywords : Access Modifiers
 
 6 tanedir.
 
@@ -144,7 +144,7 @@ private protected
 
 ![image](https://user-images.githubusercontent.com/44713722/182468077-0a910e09-d2ae-4172-83ea-2cfaf04c9338.png)
 
-Keywords: Const & Readonly Modifiers
+## Keywords: Const & Readonly Modifiers
 
 Const: sabit değer verebiliyoruz. sürekli değişen değerleri sabitleyeceğimiz zaman kullanıyoruz. ilk aldığı değerden sonra değiştirmeye izin vermez. 
 Readonly: constracture içerisinde tanımlanıyor. Değişmeyecek bir değer. Sınıf içerisinde değiştirmeye izin veriyor. fakat contructer dışında tanımlamaya izin vermez.
@@ -155,7 +155,7 @@ Read only referanslarda kullanıldığında açık mı? Araştırılabilir.
 
 Keywords: Stattements
 
-Exception handling Statement mıdır? mülakat sorusu :) cevap evet.
+## Exception handling Statement mıdır? mülakat sorusu :) cevap evet.
 
 kendi içieriisnde 4'e ayrılıyor.
 
@@ -168,7 +168,7 @@ Bir değiştkene false atanmış. ! ie terisini alabiliyoruz. checbox'larda kull
 ![image](https://user-images.githubusercontent.com/44713722/182471730-96d3b08a-3080-48e5-9579-9ff08e3e4067.png)
 
 
-Operator : Null Coalescing 
+## Operator : Null Coalescing 
 
 ?? operatorudur soldaki değer null'sa sağdaki ifadeyi döndürür.
 
@@ -193,7 +193,7 @@ Sonuç alt bölümdeki gibi.
 ![image](https://user-images.githubusercontent.com/44713722/182474236-31ace240-22ff-4002-8ad5-b0f5c186b724.png)
             
 
-BBoxing / Unboxing in C#
+## Boxing / Unboxing in C#
 
 ![image](https://user-images.githubusercontent.com/44713722/182475459-5668d192-34d0-4946-a699-7bdeabe9b30b.png)
 
@@ -206,7 +206,7 @@ Yani value type olan bir şeyi referans type olarak tutmuş olduk. Buna boxing d
 
 .net'in birçok alanında boxing var. Bilemediği değerleri object olarak tutuyor.
 
-Exception Handling
+## Exception Handling
 
 Try:
 Catch
@@ -252,7 +252,7 @@ exception en son yazmak lazım çünkü en genel sınıftır.
 
 Readonly hatası verir. Constructure olarak çalışıyor üstü.
 
-Http Protocol
+## Http Protocol
 
 client server protokolüdür. 
 
@@ -260,7 +260,7 @@ client server protokolüdür.
 
 ![image](https://user-images.githubusercontent.com/44713722/182584583-a3db87ba-290f-4e76-bf93-74577a2355be.png)
 
-Web Api World
+## Web Api World
 
 Rest is a web Protocol?
 
@@ -289,7 +289,7 @@ Responce'u catch yapabiliyoruz. Soap'ta yok
 
 ![image](https://user-images.githubusercontent.com/44713722/182586415-66d17c41-513d-463d-a21b-a81a8ad2851f.png)
 
-Json
+## Json
 
 Soap'a göre daha okunabilir. Hem okunabilir hem de makinanın anlayabilieceği bir dil.
 ![image](https://user-images.githubusercontent.com/44713722/182586569-42ea5100-be63-44ef-8de0-527bcc808223.png)
@@ -304,33 +304,33 @@ Soap'a göre daha okunabilir. Hem okunabilir hem de makinanın anlayabilieceği 
 
 birtek datetime yok ama bunu da framework bazında datetime olarak parse ediyoruz.
 
-Soap Service
+## Soap Service
 sales force, CRM Dynamic geliştirdiğimizde buna bulaşmak durumunda kalırız.
 
 ![image](https://user-images.githubusercontent.com/44713722/182587322-90996af9-39bc-4d01-a24a-83ac7e70c7ab.png)
 
-Object in C# Abstraction
+## Object in C# Abstraction
 
 Nesnelerin modellendiği bir yapı.
 
-OOP in C# : Class & Object 
+## OOP in C# : Class & Object 
 ![image](https://user-images.githubusercontent.com/44713722/182620618-9d915bfd-53ef-409f-969d-c95f5e7e5908.png)
 
-OOP in C# : Interface
+## OOP in C# : Interface
 
 - no access modifier
 - implament verilen sınıfta declare etmek gerek.
 ![image](https://user-images.githubusercontent.com/44713722/182620707-2ce0b70b-b7c4-4155-a57f-5d6b62110b01.png)
 
 
-OOP in C# : Inheritance
+## OOP in C# : Inheritance
 
 ![image](https://user-images.githubusercontent.com/44713722/182621056-e29e2b4d-34be-4622-b4c7-747af2452131.png)
 
 ana sınıf base class
 türetilmiş sınıf derived class olarak bilinir
 
-OOP in C# : Polymorphism
+## OOP in C# : Polymorphism
 
 4'e ayrılır.
 OOP'de kritik.
@@ -354,7 +354,7 @@ Türlere göre speak methodunu türettik.
 OOP  in C# : Encapsulation
 --yazılcak sonra
 
-Abstract Class ile Interface arasındaki fark nedir?
+## Abstract Class ile Interface arasındaki fark nedir?
 
 ikisinde de implemante ediliyor.
 
@@ -365,7 +365,7 @@ ikisinde de implemante ediliyor.
 Birds'u IFly dan imlemente edelim. >>>> Kuş uçabilir. Can Be durumu var burada.
 Birds'u Animaldan abstract class alalım. >> Kuş bir hayvandır. Is A ilişkisi. Bu budur deriz.
 
-Nested Type nedir?
+## Nested Type nedir?
 
 Sınıf içerisinde tanımlananlara denir.
 
