@@ -1,7 +1,7 @@
 # My.NetCoreNotes
 
 1.hafta:
-
+ 
 What is a C# 
 
 ![image](https://user-images.githubusercontent.com/44713722/182449917-335ce97f-bf45-4504-9680-d1398e00942d.png)
