@@ -1,4 +1,43 @@
-# My.NetCoreNotes
+# My.NetCore and Git notes
+
+## Git
+
+Email düzenleme,
+Global olarak düzenledik.
+Git config –global user.name “Mustafa Eraslan”
+Git config user.name
+//sorguladık isim gelmiş
+Git config –global user.email mustafa.eraslan@arvato-scs.com
+//kontol ettiğimde
+Git config user.email
+//emailim geldiğini gördüm.
+Git bir versiyon kontrol sistemidir.
+Versiyonları kontrol edebiliyoruz. SavePoint gibi. 
+
+![image](https://user-images.githubusercontent.com/44713722/195627398-91bed67b-1e70-45f2-87c7-986ea8e402b8.png)
+
+Üstteki mavi baloncuklar birer commit olarak nitelendirebiliriz. Pembeler ise ayrı bir branch’tir.
+Her bir commit’e geri dönebilirim. Turuncularda commitin açıklmasıdır.
+
+![image](https://user-images.githubusercontent.com/44713722/195627439-34a302ff-3b02-426f-a245-8f70720a9d8a.png)
+
+Çalışma klasörü kodlarımızın bulunduğu klasördür.
+Gitt add //staging dediğimiz yere alıyoruz. Arafta duruyor.
+Git commit ile yukarıdaki mavi yuvarlaklar oluşuyor.
+Ls //masaüstünü göster
+Mkdir GitTest //GitTest adında bir çalışma dosyası oluştur.
+Cd GitTest // GitTest ismindeki klasörün içerisine gir.
+Git status // git’in bu klasör ile bir bağlantısı yok bilgisini verdi. 
+Git init // master ana branch’tir. İnit işlemi yapar. 2 kez init sakın yapma.
+Ls -la // gizli dosyaları da görmemizi sağlar.
+Cd .git //diyip içeriisnie bakabiliriz.
+Rm -rf .git //dediğimizde .git dosyasını siler
+Git status // dediğimiz zaman not a git repositorty der bize
+Touch ilkdefter.txt //dediğimizde bize ilkdefter.txt dosyası oluşturur.
+Git add ilkdefter.txt // ilkdefter diyerek add yaptık.
+Git commit -m “created ilkdefter.txt” //commit attık.
+Git log // commit detayını görmüş olduk.
+
 
 1.hafta:
  
