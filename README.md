@@ -22,21 +22,51 @@ Her bir commit’e geri dönebilirim. Turuncularda commitin açıklmasıdır.
 ![image](https://user-images.githubusercontent.com/44713722/195627439-34a302ff-3b02-426f-a245-8f70720a9d8a.png)
 
 Çalışma klasörü kodlarımızın bulunduğu klasördür.
-Gitt add //staging dediğimiz yere alıyoruz. Arafta duruyor.
-Git commit ile yukarıdaki mavi yuvarlaklar oluşuyor.
-Ls //masaüstünü göster
-Mkdir GitTest //GitTest adında bir çalışma dosyası oluştur.
-Cd GitTest // GitTest ismindeki klasörün içerisine gir.
-Git status // git’in bu klasör ile bir bağlantısı yok bilgisini verdi. 
-Git init // master ana branch’tir. İnit işlemi yapar. 2 kez init sakın yapma.
-Ls -la // gizli dosyaları da görmemizi sağlar.
-Cd .git //diyip içeriisnie bakabiliriz.
-Rm -rf .git //dediğimizde .git dosyasını siler
-Git status // dediğimiz zaman not a git repositorty der bize
-Touch ilkdefter.txt //dediğimizde bize ilkdefter.txt dosyası oluşturur.
-Git add ilkdefter.txt // ilkdefter diyerek add yaptık.
-Git commit -m “created ilkdefter.txt” //commit attık.
-Git log // commit detayını görmüş olduk.
+Gitt add //staging dediğimiz yere alıyoruz. Arafta duruyor.  
+Git commit ile yukarıdaki mavi yuvarlaklar oluşuyor. 
+Ls //masaüstünü göster 
+Mkdir GitTest //GitTest adında bir çalışma dosyası oluştur. 
+Cd GitTest // GitTest ismindeki klasörün içerisine gir. 
+Git status // git’in bu klasör ile bir bağlantısı yok bilgisini verdi.  
+Git init // master ana branch’tir. İnit işlemi yapar. 2 kez init sakın yapma. 
+Ls -la // gizli dosyaları da görmemizi sağlar. 
+Cd .git //diyip içeriisnie bakabiliriz. 
+Rm -rf .git //dediğimizde .git dosyasını siler 
+Git status // dediğimiz zaman not a git repositorty der bize 
+Touch ilkdefter.txt //dediğimizde bize ilkdefter.txt dosyası oluşturur. 
+Git add ilkdefter.txt // ilkdefter diyerek add yaptık. 
+Git commit -m “created ilkdefter.txt” //commit attık. 
+Git log // commit detayını görmüş olduk. 
+
+Her commitin kendine ait bir hash’i oluyor.  Bu sayede commite dönebiliyoruz. 
+HEAD -> master //master branch’i içerisinde olduğumuzu gösterir. 
+Gitt add . // her şeyi ekler. Yani 2 dosyamız varsa ikisini de ekler. 
+Gitt commit -m // “ilk satır kodlarımızı yazdık” 
+Git log // commit loğlarını görürüz 
+Gitt add . 
+Git commit -m “python kodunda bir satır değişti” 
+## gitignore
+Touch ornek.html // ornek html oluşturur.
+Touch gizli.txt //gizli dosya oluşturup. Klasörden içerisine edit yapıyor. Gereksiz detayları ekliyoruz. 
+Git status // gizli.txt olduğunu gösterir. 
+Gitignore ile görmezden gelceeği dosyaları oluşturuyoruz.  
+Touch . gitignore //gitignore oluşturdum. 
+Gitignore dosyası içerisine gizli.txt yazdığımda. Gizlitxt gözükmemeye başlayacak. 
+git add . // Artık yapabiliriz. 
+Git commit -m “gitignore dosyası oluşturuldu” 
+
+![image](https://user-images.githubusercontent.com/44713722/196617979-915bf717-b453-437c-a319-a6d3985c0bd7.png)
+
+Cd Desktop 
+Ls 
+Cd GitTest 
+Git log 
+Master bir ana branch son hali anlamındadır. 
+(Head -> Master) // head git içerisinde hangi konumda olduğumuzu gösterir. Head genelde son konummuzu gösterir. Branch’ler açtıkça bu durum değişebilir.  
+
+![image](https://user-images.githubusercontent.com/44713722/196618046-ec0897fb-badc-42e5-8990-4ac2a1d8e610.png)
+
+## Merge 
 
 
 1.hafta:
