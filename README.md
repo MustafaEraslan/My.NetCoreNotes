@@ -68,6 +68,13 @@ Master bir ana branch son hali anlamındadır.
 
 ## Merge 
 
+### .Net Core Bilinmesi Gereken Kütüphaneler
+
+.Net 5.0 startup.cs dosyasında 2 tane methodumuz bulunuyor. Bunlar; configureservice, configure methodlarıdır. Configureservice servislerimizi eklediğimiz yerdir. configure middleware'larımızı eklediğimiz yerdir.
+
+.net 5.0 startup dosyasında configureservice'te bulunan servislerimi, .Net 6.0 'da builder.build'ten önce yapmam gerekiyor.
+.Net 6.0 'da direkt builder.services. dediğimde AddScoped, AddSingleton, Trancied ekleyebiliyoruz.
+
 
 1.hafta:
  
