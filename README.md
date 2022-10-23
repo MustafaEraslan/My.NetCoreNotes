@@ -96,6 +96,17 @@ Bu işlemler yapılabiliyor
 
 çok güçlü exception var. Bu noktada güçlü bir middileware yazabliyoruz.
 
+middileware nedir?
+Request/Response Pipeline’ı üzerinde özelleştirilmiş aksiyonlar alınmasını mümkün kılan, bu Pipeline akışının handle edilmesini sağlayan modüler ve etkili yapılardır.
+
+Middleware yapıları, IApplicationBuilder Interface’inden türetilen bir Class’a Extension olarak tanımlanan Method’ların istenilen sırada çalıştırılmasıni sağlayan modüler yapılardır. Bu yapılar ile birlikte;
+
+Request’lerin istenilen kontrollerden geçirilmesi sağlanabilir,
+Response’ların cache üzerinden türetilmesi sağlanabilir,
+Uygulama üzerinde loglama mekanizmaları oluşturabilir,
+Exception Handling için çözümler sağlanabilir
+ve bunlara benzer birçok ihtiyaca yönelik çözümler oluşturulabilir.
+
 - Strong OOP
 
 ## C# Language Versioning
