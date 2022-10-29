@@ -43,7 +43,7 @@ pwd: print working direcroty anlamındadır. Güncel olarak hangi klasörde oldu
 
 Çalışma klasörü kodlarımızın bulunduğu klasördür.
 
-- Gitt add //staging dediğimiz yere alıyoruz. Arafta duruyor.  
+- Gitt add //staging dediğimiz yere alıyoruz. Arafta duruyor.  git hangi dosyayı görmüşse onu indexlemiş oluyor.
 - Git commit ile yukarıdaki mavi yuvarlaklar oluşuyor. 
 - Ls //bulunduğumuz konumu gösteriyor 
 - Mkdir GitTest //GitTest adında bir çalışma dosyası oluştur. 
@@ -64,8 +64,10 @@ HEAD -> master //master branch’i içerisinde olduğumuzu gösterir.
 - Gitt add . // her şeyi ekler. Yani 2 dosyamız varsa ikisini de ekler. 
 - Gitt commit -m // “ilk satır kodlarımızı yazdık” 
 - Git log // commit loğlarını görürüz 
-- Gitt add . 
+- Gitt add . // her şeyi eklemiş olacak.
 - Git commit -m “python kodunda bir satır değişti” 
+
+head> master hangisini gösteriyorsa son commit o dur.
 ## gitignore
 Touch ornek.html // ornek html oluşturur.
 Touch gizli.txt //gizli dosya oluşturup. Klasörden içerisine edit yapıyor. Gereksiz detayları ekliyoruz. 
@@ -86,6 +88,9 @@ Master bir ana branch son hali anlamındadır.
 (Head -> Master) // head git içerisinde hangi konumda olduğumuzu gösterir. Head genelde son konummuzu gösterir. Branch’ler açtıkça bu durum değişebilir.  
 
 ![image](https://user-images.githubusercontent.com/44713722/196618046-ec0897fb-badc-42e5-8990-4ac2a1d8e610.png)
+
+HEAD:
+bizim git içeriisndeahngi konumda olduğumuzu gösterir.
 
 ## Merge 
 
