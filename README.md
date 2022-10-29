@@ -14,7 +14,18 @@ Global olarak düzenledik.
 Git bir versiyon kontrol sistemidir.
 Versiyonları kontrol edebiliyoruz. SavePoint gibi. 
 
+Email ve kullanıcı kaydedilebiliyor. Daha sonrasında değiştirilebiliyor.
+
+git config --global user.name "mustafa eraslan"
+
+git config --global user.email eraslan.mustafa@outlook.com
+
+![image](https://user-images.githubusercontent.com/44713722/198847304-77eed120-e0fc-4476-9645-f0421dd9c57e.png)
+
 ![image](https://user-images.githubusercontent.com/44713722/195627398-91bed67b-1e70-45f2-87c7-986ea8e402b8.png)
+
+![image](https://user-images.githubusercontent.com/44713722/198847335-84088d2c-6482-4c0c-8ae2-12314fc10c5b.png)
+
 
 Üstteki mavi baloncuklar birer commit olarak nitelendirebiliriz. Pembeler ise ayrı bir branch’tir.
 Her bir commit’e geri dönebilirim. Turuncularda commitin açıklmasıdır.
@@ -34,12 +45,12 @@ pwd: print working direcroty anlamındadır. Güncel olarak hangi klasörde oldu
 
 - Gitt add //staging dediğimiz yere alıyoruz. Arafta duruyor.  
 - Git commit ile yukarıdaki mavi yuvarlaklar oluşuyor. 
-- Ls //masaüstünü göster 
+- Ls //bulunduğumuz konumu gösteriyor 
 - Mkdir GitTest //GitTest adında bir çalışma dosyası oluştur. 
 - Cd GitTest // GitTest ismindeki klasörün içerisine gir. 
-- Git status // git’in bu klasör ile bir bağlantısı yok bilgisini verdi.  
-- Git init // master ana branch’tir. İnit işlemi yapar. 2 kez init sakın yapma. 
-- Ls -la // gizli dosyaları da görmemizi sağlar. 
+- Git status // git’in bu klasör ile bir bağlantısı yok bilgisini verdi.  Bağlantıyı kurmak için init komutunu kullanıyoruz.
+- Git init // master ana branch’tir. İnit işlemi yapar. Artık git ile bağlantımız vardır. Master brach'ini görüyoruz. 2 kez init sakın yapma. 
+- Ls -la // gizli dosyaları da görmemizi sağlar. .git klasörüne değişikliklerimizi kaydediyor. değişikliklerimizi loglanmış oluyor.
 - Cd .git //diyip içeriisnie bakabiliriz. 
 - Rm -rf .git //dediğimizde .git dosyasını siler 
 - Git status // dediğimiz zaman not a git repositorty der bize 
