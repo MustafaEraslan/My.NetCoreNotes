@@ -94,6 +94,16 @@ bizim git içeriisndeahngi konumda olduğumuzu gösterir.
 
 ## Merge 
 
+![image](https://user-images.githubusercontent.com/44713722/198867988-5a8ee635-3d1d-461f-b707-284bd3f0c41e.png)
+git branch branchname // branch açar.
+
+Yeni bir branch açarsak head oraya geliyor.
+
+- git switch master // master'a geçebiliriz.
+
+İki tane brach'i daha sonra birleştirmek istersek;
+git merge branchname // kullanabiliriz.
+
 ### .Net Core Bilinmesi Gereken Kütüphaneler
 
 .Net 5.0 startup.cs dosyasında 2 tane methodumuz bulunuyor. Bunlar; configureservice, configure methodlarıdır. Configureservice servislerimizi eklediğimiz yerdir. configure middleware'larımızı eklediğimiz yerdir.
