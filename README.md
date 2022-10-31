@@ -95,7 +95,7 @@ bizim git içeriisndeahngi konumda olduğumuzu gösterir.
 ## Merge 
 
 ![image](https://user-images.githubusercontent.com/44713722/198867988-5a8ee635-3d1d-461f-b707-284bd3f0c41e.png)
-git branch branchname // branch açar.
+- git branch branchname // branch açar.
 
 Yeni bir branch açarsak head oraya geliyor.
 
@@ -103,6 +103,13 @@ Yeni bir branch açarsak head oraya geliyor.
 
 İki tane brach'i daha sonra birleştirmek istersek;
 git merge branchname // kullanabiliriz.
+
+- git branch //kaç tane brach varsa onları gösterir.
+
+![image](https://user-images.githubusercontent.com/44713722/199104981-49a26290-b0b8-4d61-b553-d57419e700ca.png)
+
+Merge Conflict
+
 
 ### .Net Core Bilinmesi Gereken Kütüphaneler
 
