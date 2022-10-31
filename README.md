@@ -111,6 +111,8 @@ git merge branchname // kullanabiliriz.
 .net 5.0 startup dosyasında configureservice'te bulunan servislerimi, .Net 6.0 'da builder.build'ten önce yapmam gerekiyor.
 .Net 6.0 'da direkt builder.services. dediğimde AddScoped, AddSingleton, Trancied ekleyebiliyoruz.
 
+Lambda neden kullanıyoruz?
+Lambda İfadeleri kullanarak parametre geçilebilen ve değer döndüren isimsiz yerel fonksiyonlar oluşturabilirsiniz. Bu ifadeler genelde basit işlemleri bildirmekte kullanılabilir ve LINQ sorgularının yazımında çok işe yararlar.
 
 1.hafta:
  
